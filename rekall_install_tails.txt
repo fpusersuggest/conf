@@ -1,0 +1,23 @@
+apt install virtualenv
+apt install python-pip
+apt install python-virtualenv
+apt install python-pip
+apt install gcc
+apt install python-dev
+apt install libreadline-dev
+apt install libreadline
+apt install readline
+apt install libreadline-dev
+apt install lib32readline-dev 
+apt install lib32readline-dev
+apt install libreadline-dev
+apt install libreadline-gplv2-dev
+apt install libstdc++-7-dev
+apt install libstdc++-dev
+apt install libstdc++
+apt install libstdc++
+apt install ncurses
+apt install libncurses
+apt install libncurse
+apt install libncurses5 libncurses5-dev
+apt install make
