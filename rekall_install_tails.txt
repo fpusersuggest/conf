@@ -21,3 +21,9 @@ apt install libncurses
 apt install libncurse
 apt install libncurses5 libncurses5-dev
 apt install make
+
+torify virtualenv venv
+source bin/activate
+torify pip install --upgrade setuptools pip wheel
+torify pip install rekall
+
