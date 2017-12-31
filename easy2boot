@@ -1,0 +1,16 @@
+# Guida all'uso di easy2boot su linux
+
+La guida sul sito easy2boot.com è tutto fuorchè easy... sebbene il software tutto sommato sia semplice il sito del dev è talmente incasinato che prima di capirci qualcosa vi è già passato la voglia.
+Ecco una guida davvero easy al setup:
+
+1) download 
+wget http://files.easy2boot.com/200003092-5f735606cf/Easy2Boot_v1.97A.exe
+
+2) scompattare il file, funziona solo 7zip
+7z x Easy2Boot_v1.97A.exe
+
+3) entrare nella cartella corretta e dare permessi di esecuzione:
+cd _ISO/docs/linux_utils
+chmox +x *
+
+4) formattare la pennina usb
