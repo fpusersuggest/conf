@@ -3,3 +3,10 @@
 ls -l image.iso
 sha256sum image.iso
 head -c size_image_iso /dev/sda1 | sha256sum
+
+# oppure
+SIZE=`stat -c '%s' miaiso.iso`
+FAST=(expr $SIZE/2048)
+dd if=/dev/sdc1 bs=2048 count=$FAST | sha256sum
+
+
