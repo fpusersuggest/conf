@@ -1,0 +1,5 @@
+# check hash of usb stick live
+
+ls -l image.iso
+sha256sum image.iso
+head -c size_image_iso /dev/sda1 | sha256sum
